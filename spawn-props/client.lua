@@ -1,0 +1,8 @@
+Citizen.CreateThread(function()
+	Citizen.Wait(0)	
+    local HashKey = GetHashKey("")
+	local SpawnObject1 = CreateObject(HashKey, 0, 0, 0)
+	PlaceObjectOnGroundProperly(SpawnObject1)
+	FreezeEntityPosition(SpawnObject1, true)
+	SetEntityHeading(SpawnObject1, 0.0)
+end)

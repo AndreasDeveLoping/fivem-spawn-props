@@ -1,5 +1,7 @@
 How to place your prop
 
+You find props here: https://gtahash.ru/ or https://forge.plebmasters.de/objects?d=eyJzZWFyY2giOiIiLCJwYWdlIjoxLCJmaWx0ZXIiOnsiZGxjIjpbXSwic2l6ZSI6W10sInRhZ3MiOltdfSwiY2F0ZWdvcnkiOjB9
+
 Citizen.CreateThread(function()
 	Citizen.Wait(0)	
     local HashKey = GetHashKey("")                       ##put prop here
